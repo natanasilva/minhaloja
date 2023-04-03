@@ -1,7 +1,5 @@
 <?php
-
-ini_set("display_errors", true);
-
+session_start();
 # Chamando a conexão com o banco de dados
 require_once 'pages/connect.php';
 require_once 'pages/functions.php';
